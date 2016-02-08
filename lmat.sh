@@ -34,7 +34,7 @@ module load kronatools/2.5
 module load seqtk/intel/1.0
 
 #LMAT_DIR=/scratch/kmg549/flu-metagenomics/example/runtime_inputs -- I downloaded the runtime inputs from ftp://gdo-bioinformatics.ucllnl.org/pub/lmat/ and place them here
-#LMAT_DIR=/path/to/runtimeinputs
+LMAT_DIR=/path/to/runtimeinputs
 
 export LMAT_DIR=/path/to/runtimeinputs
 
