@@ -29,7 +29,7 @@
 
 ###-----Statements to be Executed-----###
 
-cd path/to/working/directory
+#cd path/to/working/directory
 module load kronatools/2.5
 module load seqtk/intel/1.0
 
