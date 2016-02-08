@@ -35,7 +35,8 @@ module load seqtk/intel/1.0
 
 #LMAT_DIR=/scratch/kmg549/flu-metagenomics/example/runtime_inputs -- I downloaded the runtime inputs from ftp://gdo-bioinformatics.ucllnl.org/pub/lmat/ and place them here
 LMAT_DIR=/path/to/runtimeinputs
-OUT_FILE=/path/to/out
+OUT_FILE=/path/to/out 
+#make sure out_file is created before running LMAT, or else you will get an error
 QUERY_FILE=/path/to/query_file
 DB=/path/to/db
 
