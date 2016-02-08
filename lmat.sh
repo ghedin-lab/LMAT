@@ -41,8 +41,5 @@ DB=/path/to/db
 
 export LMAT_DIR=/path/to/runtimeinputs
 
-for i in {1..37}
-do
-BASE=${i}
 /share/apps/lmat/1.2.6/intel/bin/run_rl.sh --db_file=$DB --query_file=$QUERY_FILE --odir=$OUT_FILE --threads=8
 done
